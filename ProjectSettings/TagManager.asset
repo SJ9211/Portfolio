@@ -6,9 +6,7 @@ TagManager:
   tags:
   - PLAYER
   - BULLET
-  - SecondCamera
-  - BulletSpawn
-  - Weapon
+  - ZOMBIE
   layers:
   - Default
   - TransparentFX

@@ -12,28 +12,22 @@ public class FireCtrl : MonoBehaviour
    public GameObject bullet;
     // 총알 발사 좌표
     public Transform firePos;
-    // 총소리에 사용할 오디오
    
     private MeshRenderer muzzleFlash;
-    private bool isPlayerDie;
-    private RaycastHit hit;
     void Start()
     {
         // FirePos 하위에 있는 MuzzleFlash의 머터리얼 컴포넌트 추출
         muzzleFlash = firePos.GetComponentInChildren<MeshRenderer>();
         // 처음 시작할떄 비활성
         muzzleFlash.enabled = false;
-        isPlayerDie = false;
     }
 
     public void OnPlayerDie()
     {
-        isPlayerDie = true;
+
     }
     void Update()
     {
-        if (isPlayerDie) return;
-
         // Ray를 시각적으로 표시하기 위해 사용
         Debug.DrawRay(firePos.position, firePos.forward * BULLET_DISTANCE, Color.green);
 

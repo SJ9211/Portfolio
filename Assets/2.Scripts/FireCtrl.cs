@@ -9,7 +9,7 @@ using Unity.VisualScripting;
 public class FireCtrl : MonoBehaviour
 {
     public const float BULLET_DISTANCE = 50.0f;
-   public GameObject bullet;
+    public GameObject bullet;
     // 총알 발사 좌표
     public Transform firePos;
    

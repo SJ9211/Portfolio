@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8963087117046129950}
+  - component: {fileID: -1784382204806833068}
   m_Layer: 0
   m_Name: Bumer
   m_TagString: Untagged
@@ -34,6 +35,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1784382204806833068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8963087117046129951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 1711058747590970273, guid: dd5996e7349aaf24ab24ad794c1ccf5b, type: 3}
 --- !u!1001 &8963087117711270931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -144,6 +163,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &3096820702907417045 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6240113571037980102, guid: 7f774a6bdcb19b84b84cc8f47fad153e,
@@ -260,6 +285,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &3096820704652228216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6240113571037980102, guid: 7f774a6bdcb19b84b84cc8f47fad153e,
@@ -376,6 +407,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &3096820704772470099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6240113571037980102, guid: 7f774a6bdcb19b84b84cc8f47fad153e,

@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8067738471274304417}
+  - component: {fileID: 1269743612427297911}
   m_Layer: 0
   m_Name: Zombie
-  m_TagString: Untagged
+  m_TagString: ZOMBIE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,6 +51,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1269743612427297911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3020214808056553470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 1711058747590970273, guid: dd5996e7349aaf24ab24ad794c1ccf5b, type: 3}
 --- !u!1001 &379936978746183549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -156,6 +175,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!1001 &608436844427070655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -262,6 +287,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!1001 &928666175107849595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -368,6 +399,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!1001 &1175195757177567143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -474,6 +511,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!1001 &2983053434162206070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -574,6 +617,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &2405803029516519685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -680,6 +729,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &2675810914597377485 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -786,6 +841,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &2732122552644791013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -892,6 +953,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &4156826195663777336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -998,6 +1065,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &3739513021178578669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -1110,6 +1183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!1001 &6345592354270115356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1216,6 +1295,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!1001 &6665485057288530720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1322,6 +1407,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!1001 &6915816006438682626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1428,6 +1519,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!1001 &7373136672238343525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1533,6 +1630,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &7950096812012423446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -1639,6 +1742,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &7143972374787050843 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -1745,6 +1854,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &7228924357050247931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -1851,6 +1966,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &9142399101369804076 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -1957,6 +2078,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &8350575425045985748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,
@@ -2063,6 +2190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7e015c4263afe4eb671609fd4b1069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MonsterMaxSpawnCount: 30
+  MonsterCurrentSpawnCount: 10
+  chaseDelay: 2
+  chaseLinitDistance: 2
+  MonsterMaxHp: 20
+  player: {fileID: 0}
 --- !u!4 &8610942037619849584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562,

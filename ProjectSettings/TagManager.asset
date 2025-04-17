@@ -6,7 +6,7 @@ TagManager:
   tags:
   - PLAYER
   - BULLET
-  - ZOMBIE
+  - MONSTER
   layers:
   - Default
   - TransparentFX

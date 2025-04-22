@@ -4,28 +4,34 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
-using UnityEngine.AI;
+
 public class MonsterCtrl : MonoBehaviour
 {
 
-    
     public static MonsterCtrl instance = null;
 
-    public Transform player;
-  
-    void Awake()
+     public Transform player;     // 추적할 플레이어
+    public float speed = 3.0f;   // 이동 속도
+    public float stopDistance = 1.5f; // 플레이어와의 최소 거리
+
+    void Update()
     {
-        if ( instance == null)
+        if (player != null)
         {
-            instance = this;
+            float distance = Vector3.Distance(transform.position, player.position);
+
+            // 일정 거리 이상일 때만 추적
+            if (distance > stopDistance)
+            {
+                Vector3 direction = (player.position - transform.position).normalized;
+                transform.position += direction * speed * Time.deltaTime;
+
+                // 몬스터가 플레이어를 바라보게 회전
+                Quaternion toRotation = Quaternion.LookRotation(direction, Vector3.up);
+                transform.rotation = Quaternion.Slerp(transform.rotation, toRotation, Time.deltaTime * 5f);
+            }
         }
     }
-
-    void Start()
-    {
-       
-
-    } 
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -35,4 +41,5 @@ public class MonsterCtrl : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
 }
